@@ -8,9 +8,7 @@ def get_book_text(filepath: str) -> str:
     
     
 def main():
-    FILEPATH : str = "./books/frankenstein.txt"
-    # # print(get_book_text("./books/frankenstein.txt"))
-    # book_text = get_book_text(FILEPATH)
+    FILEPATH:str = "./books/frankenstein.txt"
     print(get_num_words(get_book_text(FILEPATH)))
     print(get_char_count(get_book_text(FILEPATH)))
     
