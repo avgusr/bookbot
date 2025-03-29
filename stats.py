@@ -1,6 +1,6 @@
 def get_num_words(file_content:str) -> int:
     num_words = len(file_content.split())
-    return f"{num_words} words found in the document"
+    return num_words
 
 
 
